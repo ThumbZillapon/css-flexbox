@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Productivity App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f6fd;
+      color: #111;
+      text-align: center;
+    }
+
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      background-color: white;
+      border-radius: 9999px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin: 16px;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .navbar .logo {
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 16px;
+    }
+
+    .navbar nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      transition: color 0.3s, text-decoration 0.3s;
+    }
+
+
+    .navbar nav a:hover {
+      color: #7b3ff2;
+      text-decoration: underline;
+    }
+
+    
+    .hero {
+      margin-top: 80px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #e7e3fb;
+      color: #7b3ff2;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .hero h1 .highlight {
+      color: #7b3ff2;
+    }
+
+    .hero p {
+      margin-top: 16px;
+      font-size: 16px;
+      color: #444;
+      font-weight: bold;
+    }
+
+    .hero button {
+      margin-top: 24px;
+      padding: 12px 24px;
+      background-color: #111;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Acme<sup style="color:#7b3ff2;">•</sup></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <div class="tag">
+      🌈 Acme Productivity App
+    </div>
+    <h1>
+      Boost Your <span class="highlight">Product</span>ivity
+    </h1>
+    <p>
+      Streamline your workflow with our all-in-one productivity app.
+    </p>
+    <button>Start Free Trial</button>
+  </div>
+</body>
+</html>
