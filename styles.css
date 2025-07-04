@@ -31,7 +31,7 @@ body {
     transition: color 0.3s, text-decoration 0.3s;
   }
   
-  
+
   .navbar nav a:hover {
     color: #7b3ff2;
     text-decoration: underline;
