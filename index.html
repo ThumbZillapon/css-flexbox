@@ -47,20 +47,25 @@
 
   <!-- Part 3: Form and Footer -->
   <div class="contact">
-    <h2>Get in Touch</h2>
-    <input type="text" placeholder="John Doe" />
-    <input type="email" placeholder="john@example.com" />
-    <textarea rows="5" placeholder="Your message..."></textarea>
-    <button>Submit</button>
+    <h1>Get in Touch</h1>
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="John Doe" />
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="john@example.com" />
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message..." ></textarea>
+      <button type="submit">Submit</button>
+    </form>
   </div>
 
   <footer>
     <div>Acme productivity app ©2024</div>
     <div>
-      <a href="#">FAQ</a>
-      <a href="#">Terms</a>
-      <a href="#">AI Policy</a>
-      <a href="#">Pricing</a>
+      <a href="#"><b>FAQ</b></a>
+      <a href="#"><b>Terms</b></a>
+      <a href="#"><b>AI Policy</b></a>
+      <a href="#"><b>Pricing</b></a>
     </div>
   </footer>
 </body>
